@@ -19,6 +19,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.tcc.receituario.domain.enums.Perfil;
 import com.tcc.receituario.domain.enums.TipoPerfil;
 
+//classe user para tela de login
 @EntityScan
 public class User implements Serializable {
 	private static final long serialVersionUID = 1L;
